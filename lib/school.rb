@@ -16,6 +16,7 @@ class School
         unless @roster.key?(grade)
             return []
         end
+        @roster[grade]
     end
 
 end
