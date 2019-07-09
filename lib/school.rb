@@ -24,7 +24,7 @@ class School
             names.sort
         end
          return @roster
-        
+
     end
 
 end
